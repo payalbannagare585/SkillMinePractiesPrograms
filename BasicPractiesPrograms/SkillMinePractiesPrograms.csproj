@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>SkillMinePractiesPrograms.ArrayPrograms.ArrayFromVowel</StartupObject>
+    <StartupObject>SkillMinePractiesPrograms.ArrayPrograms.FindOccurences</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -50,8 +50,14 @@
     <Compile Include="AreaOfTringle.cs" />
     <Compile Include="ArmstrongNum.cs" />
     <Compile Include="ArrayPrograms\ArrayDemo.cs" />
+    <Compile Include="ArrayPrograms\ArrayFindVowels.cs" />
+    <Compile Include="ArrayPrograms\ArrayMinValue.cs" />
     <Compile Include="ArrayPrograms\ArraySumEven.cs" />
     <Compile Include="ArrayPrograms\CountArrayElements.cs" />
+    <Compile Include="ArrayPrograms\FindOccurences.cs" />
+    <Compile Include="ArrayPrograms\MaxMinValue.cs" />
+    <Compile Include="ArrayPrograms\ReplaceByAlternateChar.cs" />
+    <Compile Include="ArrayPrograms\SortingArrayDemo.cs" />
     <Compile Include="BreakDemo.cs" />
     <Compile Include="BreakDemo2.cs" />
     <Compile Include="CalculatePercentage.cs" />
