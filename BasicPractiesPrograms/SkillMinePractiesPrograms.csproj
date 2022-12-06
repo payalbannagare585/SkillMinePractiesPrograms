@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>SkillMinePractiesPrograms.ArrayPrograms.FindOccurences</StartupObject>
+    <StartupObject>SkillMinePractiesPrograms.Oops_Programs.StudentInfo</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -80,7 +80,9 @@
     <Compile Include="NumPosiNigTer.cs" />
     <Compile Include="OddEven.cs" />
     <Compile Include="OddFor.cs" />
+    <Compile Include="Oops Programs\Account.cs" />
     <Compile Include="Oops Programs\Car.cs" />
+    <Compile Include="Oops Programs\Student.cs" />
     <Compile Include="Pattern2.cs" />
     <Compile Include="Pattern3.cs" />
     <Compile Include="Pattern4.cs" />
