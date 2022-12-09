@@ -1,14 +1,16 @@
 ﻿using System;
+using System.CodeDom.Compiler;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace OopsPrograms
 {
     public class EmployeeInfo
     {
-        private int empid;
+        public static int empid;
         private string empname, country;
         private int salary;
         private static int count;
@@ -19,6 +21,11 @@ namespace OopsPrograms
             this.empname = empname;
             this.salary = salary;
             this.country = country;
+        }
+
+        public static int CountEmp()
+        {
+            return count;
         }
 
         public override string ToString()
