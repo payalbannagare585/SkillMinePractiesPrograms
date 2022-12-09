@@ -8,8 +8,8 @@ namespace OopsPrograms
 {
     abstract public class AbstractClassDemo
     {
+        protected double pai;
         protected int r;
-        protected int pai;
         protected int l;
         protected int w;
         protected int area;
@@ -24,12 +24,12 @@ namespace OopsPrograms
         public Circle(int r,double pai)
         {
             this.r = r;
-            this.pai = (int)(double)pai;
+            this.pai = (double)pai;
          
         }
         public  override void Area()
         {
-            area = pai * r * r;
+            area = (int)((double)pai * r * r);
 
             Console.WriteLine("Area of Circle is: "+area);
         }
