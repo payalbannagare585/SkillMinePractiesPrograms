@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>OopsPrograms.StudentArray</StartupObject>
+    <StartupObject>OopsPrograms.CollectionPrograms.ArrayListDemo</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -48,14 +48,22 @@
   <ItemGroup>
     <Compile Include="AbstractClassDemo.cs" />
     <Compile Include="BookInfo.cs" />
+    <Compile Include="CollectionPrograms\ArrayListDemo.cs" />
+    <Compile Include="CollectionPrograms\HashtableDemo.cs" />
+    <Compile Include="CollectionPrograms\QueueDemo.cs" />
+    <Compile Include="CollectionPrograms\StackDemo.cs" />
     <Compile Include="EmployeeArray.cs" />
     <Compile Include="EmployeeInfo.cs" />
     <Compile Include="InheritanceEmployee.cs" />
+    <Compile Include="JaggedArray.cs" />
     <Compile Include="OutKeywordUse.cs" />
     <Compile Include="PramKewordUse.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RefKeywordUse.cs" />
     <Compile Include="StartPoint.cs" />
+    <Compile Include="StringBuilderUse.cs" />
+    <Compile Include="StringDemo1.cs" />
+    <Compile Include="StringMethodsUse.cs" />
     <Compile Include="StudentArray.cs" />
     <Compile Include="StudentResultInfo.cs" />
   </ItemGroup>
