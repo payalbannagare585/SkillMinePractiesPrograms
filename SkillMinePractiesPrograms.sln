@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkillMinePractiesPrograms",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OopsPrograms", "OopsPrograms\OopsPrograms.csproj", "{4F9CC1C4-510D-45F1-89FF-ABC621D58934}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdvanceCsharpPrograms", "AdvanceCsharpPrograms\AdvanceCsharpPrograms.csproj", "{133952C5-274B-4674-8BA0-EA95E7B4B5C8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{4F9CC1C4-510D-45F1-89FF-ABC621D58934}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F9CC1C4-510D-45F1-89FF-ABC621D58934}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F9CC1C4-510D-45F1-89FF-ABC621D58934}.Release|Any CPU.Build.0 = Release|Any CPU
+		{133952C5-274B-4674-8BA0-EA95E7B4B5C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{133952C5-274B-4674-8BA0-EA95E7B4B5C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{133952C5-274B-4674-8BA0-EA95E7B4B5C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{133952C5-274B-4674-8BA0-EA95E7B4B5C8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
