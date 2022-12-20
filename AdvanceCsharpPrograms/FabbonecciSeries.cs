@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace AdvanceCsharpPrograms
 {
-    internal class FabbonecciSeries
+    internal class FabbonecciSeriesusing
+
     {
         public static void Main(string[] args)
         {
@@ -15,9 +16,9 @@ namespace AdvanceCsharpPrograms
             Console.Write("Enter the number of elements: ");
             number = int.Parse(Console.ReadLine());
 
-            Console.Write(num1 + " \n" + num2 + " \n");  
-            
-            for (i = 2; i < number; ++i)   
+            Console.Write(num1 + " \n" + num2 + " \n");
+
+            for (i = 2; i < number; ++i)
             {
                 num3 = num1 + num2;
                 Console.Write(num3 + " \n");

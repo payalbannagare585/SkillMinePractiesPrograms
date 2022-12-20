@@ -8,17 +8,17 @@ namespace AdvanceCsharpPrograms
 {
     internal class FindMaxnum
     {
-          public static void maxelement(int num_rows, int[][] arr)
+        public static void maxelement(int num_rows, int[][] arr)
         {
             int i = 0;
             int max = 0;
 
-            int[] result=new int[num_rows];
-            while ( i < num_rows )
+            int[] result = new int[num_rows];
+            while (i < num_rows)
             {
-                for(int j = 0; j < arr[i].Length;j++)
+                for (int j = 0; j < arr[i].Length; j++)
                 {
-                    if (arr[i][j]>max)
+                    if (arr[i][j] > max)
                     {
                         max = arr[i][j];
                     }
@@ -29,9 +29,9 @@ namespace AdvanceCsharpPrograms
             }
             printArray(result);
         }
-         static void printArray(int[] result)
+        static void printArray(int[] result)
         {
-            for(int i=0;i<result.Length;i++)
+            for (int i = 0; i < result.Length; i++)
             {
                 Console.WriteLine(result[i]);
             }
@@ -46,6 +46,6 @@ namespace AdvanceCsharpPrograms
             };
 
             maxelement(3, arr);
-        }   
+        }
     }
 }
