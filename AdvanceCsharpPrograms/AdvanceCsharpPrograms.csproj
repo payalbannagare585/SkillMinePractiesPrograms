@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>AdvanceCsharpPrograms.DelegatesAndEvent_Programs.DelegateDemo.Test</StartupObject>
+    <StartupObject>AdvanceCsharpPrograms.DelegatesAndEvent_Programs.BankDelegate</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -48,6 +48,7 @@
   <ItemGroup>
     <Compile Include="BankApp.cs" />
     <Compile Include="BookLibrary.cs" />
+    <Compile Include="DelegatesAndEvent Programs\BankDelegate.cs" />
     <Compile Include="DelegatesAndEvent Programs\DelegateDemo.cs" />
     <Compile Include="FabbonecciSeries.cs" />
     <Compile Include="FindMaxnum.cs" />
