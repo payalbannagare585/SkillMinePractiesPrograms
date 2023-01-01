@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{133952C5-274B-4674-8BA0-EA95E7B4B5C8}</ProjectGuid>
+    <ProjectGuid>{BE578E4C-DC81-462A-B7FF-DDCDC5942E49}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>AdvanceCsharpPrograms</RootNamespace>
-    <AssemblyName>AdvanceCsharpPrograms</AssemblyName>
+    <RootNamespace>ConsoleCrudOperations</RootNamespace>
+    <AssemblyName>ConsoleCrudOperations</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>AdvanceCsharpPrograms.Crud_collections.StudentProgramStart</StartupObject>
+    <StartupObject>ConsoleCrudOperations.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,24 +46,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AssignmentOnString\MethodDemo2.cs" />
-    <Compile Include="AssignmentOnString\SplitStrings.cs" />
-    <Compile Include="AssignmentOnString\StringTest.cs" />
-    <Compile Include="BankApp.cs" />
-    <Compile Include="BookLibrary.cs" />
-    <Compile Include="Crud collections\StudentCollection.cs" />
-    <Compile Include="Crud collections\StudentProgramStart.cs" />
-    <Compile Include="DelegatesAndEvent Programs\BankDelegate.cs" />
-    <Compile Include="DelegatesAndEvent Programs\DelegateDemo.cs" />
-    <Compile Include="FabbonecciSeries.cs" />
-    <Compile Include="FindMaxnum.cs" />
-    <Compile Include="FindSumA.cs" />
-    <Compile Include="GenDictionaryClass.cs" />
-    <Compile Include="GenListClass.cs" />
-    <Compile Include="Program1.cs" />
+    <Compile Include="AccountsClass.cs" />
+    <Compile Include="Admin.cs" />
+    <Compile Include="ProductCrud App\CrudOperationProduct.cs" />
+    <Compile Include="ProductCrud App\Product.cs" />
+    <Compile Include="ProductCrud App\productstruct1.cs" />
+    <Compile Include="ProductCrud App\StartProduct.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ShopAppDetails.cs" />
-    <Compile Include="ZeroStart.cs" />
+    <Compile Include="Struct.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

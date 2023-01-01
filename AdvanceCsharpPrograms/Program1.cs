@@ -8,8 +8,7 @@ namespace AdvanceCsharpPrograms
 {
     internal class Program1
     {
-   
-
+ 
         public static void Main()
         {
             string str1 = "Silent";
