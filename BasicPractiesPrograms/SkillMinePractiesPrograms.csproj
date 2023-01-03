@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>SkillMinePractiesPrograms.Oops_Programs.StudentInfo</StartupObject>
+    <StartupObject>SkillMinePractiesPrograms.ArraySortDemo</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -58,6 +58,7 @@
     <Compile Include="ArrayPrograms\MaxMinValue.cs" />
     <Compile Include="ArrayPrograms\ReplaceByAlternateChar.cs" />
     <Compile Include="ArrayPrograms\SortingArrayDemo.cs" />
+    <Compile Include="ArraySortDemo.cs" />
     <Compile Include="BreakDemo.cs" />
     <Compile Include="BreakDemo2.cs" />
     <Compile Include="CalculatePercentage.cs" />
@@ -99,6 +100,7 @@
     <Compile Include="TernaryDivisible.cs" />
     <Compile Include="TernaryGretestNum.cs" />
     <Compile Include="TernaryOddEven.cs" />
+    <Compile Include="TestStringDemo.cs" />
     <Compile Include="Vowel.cs" />
     <Compile Include="WhileSum.cs" />
   </ItemGroup>
