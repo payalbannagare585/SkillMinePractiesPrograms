@@ -49,6 +49,7 @@
     <Compile Include="AssignmentOnString\MethodDemo2.cs" />
     <Compile Include="AssignmentOnString\SplitStrings.cs" />
     <Compile Include="AssignmentOnString\StringTest.cs" />
+    <Compile Include="AssignmentOnString\ToggleString.cs" />
     <Compile Include="BankApp.cs" />
     <Compile Include="BookLibrary.cs" />
     <Compile Include="Crud collections\StudentCollection.cs" />
